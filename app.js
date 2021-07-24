@@ -1,4 +1,4 @@
 const path = require('path')
 
-
-console.log(path.sep());
+// separateur par defaut du system    inutile :D
+console.log(path.sep);
