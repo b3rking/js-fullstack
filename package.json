@@ -1,0 +1,23 @@
+{
+  "name": "js-fullstack",
+  "version": "1.0.0",
+  "description": "a simple app using angular and nodejs",
+  "main": "1-intro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b3rking/js-fullstack.git"
+  },
+  "keywords": [],
+  "author": "b3rking",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b3rking/js-fullstack/issues"
+  },
+  "homepage": "https://github.com/b3rking/js-fullstack#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
