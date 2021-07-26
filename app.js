@@ -1,11 +1,8 @@
 const http = require('http')
 
+
 const server = http.createServer((req, res) => {
-    console.log(req.url);
-    res.write('a server yayaaa')
-    res.end()
+    res.end('my own server without any cheat')
 })
 
-server.listen(5000, () => {
-    console.log('b3rking server started at http://localhost:5000');
-})
+server.listen(3200, ()=>{console.log('http://127.1.1:3200')})
